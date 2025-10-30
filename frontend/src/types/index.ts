@@ -23,10 +23,12 @@ export interface Booking {
     experienceId: string;
     slotId: string;
     date: string;
+    quantity: number;
     customerName: string;
     customerEmail: string;
     promoCode?: string;
     pricePaid?: number;
+    totalPaid: number;
 }
 
 

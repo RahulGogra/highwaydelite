@@ -1,0 +1,25 @@
+# dependencies
+*/node_modules/
+*.env
+
+# build output
+dist/
+build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# editor stuff
+.vscode/
+.idea/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# firebase or cloud
+.firebase/
+.google/

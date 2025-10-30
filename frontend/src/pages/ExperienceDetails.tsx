@@ -89,7 +89,7 @@ const ExperienceDetails: React.FC = () => {
   if (!experience) return <div className="p-6 text-center text-gray-500">Loading...</div>;
   
   // Find the currently selected display date for styling
-  const currentDisplayDate = availableDates.find(d => d.apiValue === selectedApiDate)?.display;
+  // const currentDisplayDate = availableDates.find(d => d.apiValue === selectedApiDate)?.display;
 
   return (
     <div className="min-h-screen bg-white">

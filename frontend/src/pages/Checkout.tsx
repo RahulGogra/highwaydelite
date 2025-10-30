@@ -18,7 +18,7 @@ const Checkout: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
   // Destructure the new state variables
-  const { experience, slot, date, quantity, total } = location.state as CheckoutState;
+  const { experience, slot, date, quantity } = location.state as CheckoutState;
 
   // Derive prices from the passed state
   const basePrice = experience ? parseInt((experience as any).price) : 0; // Use 'price' from experience if needed
